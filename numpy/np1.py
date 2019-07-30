@@ -1,4 +1,4 @@
-import numpy as numpy
+import numpy as np
 
 array = np.array([3, 4, 1, 4, 9])
-print(array)E
+print(array)
