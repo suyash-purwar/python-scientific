@@ -36,3 +36,24 @@ matrix2 = array_two.reshape(2, 3, 5)
 matrix3 = array_two.reshape(10, 3)
 print(matrix3)
 print(matrix2)
+
+''' The type of the array can also be specified at the time of creation '''
+float_arr = np.array([(4, 2.3), (23, 12), (98, 76)], dtype=np.float64)
+complex_arr = np.array([(4, 2, 5), (3, 1, 9)], dtype=complex)
+
+''' np.zeros((m, *n)) prints the null matrix of specified m and n '''
+''' dtype can also be specified here but it's not mandatory '''
+print(np.zeros(4))
+print(np.zeros(3, dtype=np.int64))
+print(np.zeros((4, 6), dtype=np.complex128))
+
+''' np.ones((m, *n)) prints the identity matrix of specified m and n '''
+''' dtype can also be specified here but it's not mandatory '''
+print(np.ones(4))
+print(np.ones(3, dtype=np.int64))
+print(np.ones((4, 6), dtype=np.complex128))
+
+''' np.random.random(m ,n) gives random number between 0 and 1 in the
+    form of m by n '''
+print(np.random.random((2, 3)))
+print(np.random.random((3, 2)) * 6)
