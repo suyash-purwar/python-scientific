@@ -57,3 +57,33 @@ print(np.ones((4, 6), dtype=np.complex128))
     form of m by n '''
 print(np.random.random((2, 3)))
 print(np.random.random((3, 2)) * 6)
+
+''' np.sum() prints the sum of elements in an array '''
+''' This method is applicable only on numeric arrays '''
+print(arr.sum())
+print(matrix[0].sum())
+
+''' np.max() prints the maximum number from an array '''
+''' This method is applicable only on numeric arrays '''
+print(arr.max())
+print(matrix[1].max())
+
+''' np.min() prints the minimum number from an array '''
+''' This method is applicable only on numeric arrays '''
+print(arr.min())
+print(matrix[1].min())
+
+''' Use case of np.min(), np.max(), np.max() with axis paramter '''
+''' We can pass an optional parameter named 'axis' in these functions '''
+print(float_arr.sum(axis=0))
+print(float_arr.sum(axis=1))
+print(complex_arr.sum(axis=0).sum())
+print(complex_arr.max(axis=1))
+print(matrix3.min(axis=1))
+print(matrix3.min(axis=0))
+
+''' np.sqrt(np.array(...)) prints the sqare root of all the elemen in an array '''
+print(np.sqrt(arr))
+
+''' np.std(np.array(...)) finds the standard deviation of an array '''
+print(np.std([2, 8, 4, 6]))
