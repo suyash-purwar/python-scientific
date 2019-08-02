@@ -1,6 +1,8 @@
-''' Arithmetic operators on arrays apply elementwise.
-    A new array is created and filled with the result. '''
-    
+'''
+    Arithmetic operators on arrays apply element wise.
+    A new array is created and filled with the result.
+'''
+
 import numpy as np
 
 matrix1 = np.array([(10, 20), (30, 40), (50, 60)])
