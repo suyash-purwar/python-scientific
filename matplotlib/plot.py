@@ -30,6 +30,6 @@ plt.tight_layout()
 
 plt.legend()
 
-plt.savefig("plot-mp1.png")
+plt.savefig("plot-img.png")
 
 plt.show()
