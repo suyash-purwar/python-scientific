@@ -11,5 +11,5 @@ plt.pie(slices, labels=labels, shadow=True, startangle=67,
 
 plt.title("Pie Chart")
 plt.tight_layout()
-
+plt.savefig("pie1.png")
 plt.show()
